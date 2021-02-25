@@ -14,8 +14,11 @@ interface VscodeConfig {
   gitlabHost: string
   gitlabToken: string
   gitlabRepoIds: string[]
-  mpPrivateKeyPath: string
-  mpList: string[]
+  mpList: Array<{
+    appid: string
+    appname: string
+    keypath: string
+  }>
   experienceQrCodeUrl:string
   port: string
 }

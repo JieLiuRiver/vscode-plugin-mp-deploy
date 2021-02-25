@@ -246,6 +246,8 @@ const ProjectPanels = React.memo(function ProjectPanels() {
                       })
                     }
                   }}
+                  size='large'
+                  style={{ width: 482 }}
                   type='card'
                   defaultActiveKey={storageGet('buildType') || 'commit'}
                 >
@@ -271,7 +273,7 @@ const ProjectPanels = React.memo(function ProjectPanels() {
                               ))}
                             </Select>
                           </Form.Item>
-                          <Form.Item label='最新 Commit' style={{ marginLeft: 40 }}>
+                          <Form.Item label='最新 Commit' style={{ marginLeft: 40, width: '100%' }}>
                             <Typography.Text type='danger'>{realCommitMsg}</Typography.Text>
                           </Form.Item>
                         </>
