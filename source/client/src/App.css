@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+
+body {
+  background-color: #eee;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+}
